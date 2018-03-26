@@ -1,6 +1,7 @@
 {
   "name": "release-test",
   "version": "0.0.2",
+  "private": true,
   "scripts": {
     "build": "cp index.js dist/index.min.js"
   }
