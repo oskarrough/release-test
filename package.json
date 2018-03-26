@@ -1,4 +1,7 @@
 {
   "name": "release-test",
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "scripts": {
+    "build": "cp index.js dist/index.min.js"
+  }
 }
