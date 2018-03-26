@@ -3,6 +3,10 @@
   "version": "0.0.3",
   "private": true,
   "scripts": {
-    "build": "cp index.js dist/index.min.js"
+    "build": "cp index.js dist/index.min.js",
+    "release": "release-it --buildCommand 'npm run build'"
+  },
+  "devDependencies": {
+    "release-it": "^7.2.1"
   }
 }
